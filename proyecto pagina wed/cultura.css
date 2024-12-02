@@ -1,0 +1,54 @@
+/* Sección de Cultura */
+#cultura {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cultura h2 {
+    text-align: center;
+    color: #0077ff;
+    margin-bottom: 20px;
+}
+
+.cultura-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.cultura-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.cultura-item h3 {
+    margin: 0 0 10px;
+    color: #0077ff;
+}
+
+.cultura-item p {
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0077ff;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
